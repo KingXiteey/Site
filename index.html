@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Health Store</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Em destaque</a>
+                </li>
+                <li>
+                    <a href="#">Promoções</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./images/loja.jpg" alt="imagem da loja">
+            <div>
+                <h2>Sobre a Health Store</h2>
+                <p>
+                    "Então, venha nos visitar na Health Store e dê o primeiro passo em direção a uma vida mais saudável e feliz. Porque quando você se sente bem, você vive bem. Health Store - Nutrindo Corpos, Nutrindo Vidas."
+                </p>
+                <p>
+                    "Na Health Store, estamos comprometidos em fornecer a você e sua família os melhores produtos para apoiar seu estilo de vida saudável. Nossa extensa seleção de alimentos orgânicos frescos é cuidadosamente selecionada para garantir que você obtenha o melhor em termos de sabor e nutrição."
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Em destaque</h2>
+            <ul class="container-flex lista-flores">
+                <li>
+                    <img src="./images/flor2.jpg" alt="">
+                    <h3>Flor</h3>
+                    <p>Flores nesse estilo só se encontram aqui</p>
+                    <strong>R$ 70,00</strong>
+                    <button type="button">Adicione ao carrinho</button>
+                </li>
+                <li class=" item-central">
+                    <img src="./images/flor1.jpg" alt="">
+                    <h3>Flor</h3>
+                    <p>Flores nesse estilo só se encontram aqui</p>
+                    <strong>R$ 60,00</strong>
+                    <button type="button">Adicione ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./images/flor3.jpg" alt="">
+                    <h3>Flor</h3>
+                    <p>Flores nesse estilo só se encontram aqui</p>
+                    <strong>R$ 50,00</strong>
+                    <button type="button">Adicione ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./images/flor2.jpg" alt="">
+                    <h3>Flor</h3>
+                    <p>Flores nesse estilo só se encontram aqui</p>
+                    <strong>R$ 70,00</strong>
+                    <button type="button">Adicione ao carrinho</button>
+                </li>
+                <li class=" item-central">
+                    <img src="./images/flor1.jpg" alt="">
+                    <h3>Flor</h3>
+                    <p>Flores nesse estilo só se encontram aqui</p>
+                    <strong>R$ 60,00</strong>
+                    <button type="button">Adicione ao carrinho</button>
+                </li>
+                <li >
+                    <img src="./images/flor1.jpg" alt="">
+                    <h3>Flor</h3>
+                    <p>Flores nesse estilo só se encontram aqui</p>
+                    <strong>R$ 60,00</strong>
+                    <button type="button">Adicione ao carrinho</button>
+                </li>
+        
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Health Store. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $('.menu-hamburguer').click(function() {
+            $('nav').slideToggle();
+        })
+    </script>
+</body>
+
+</html>
